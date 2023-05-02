@@ -1,0 +1,39 @@
+body {
+
+    /* image to place in background */
+    /*background-image: url("../img/w3c-html5-logo.png");*/
+
+    /* How bg image should be repeated */
+    /* can be repeat (default), repeat-x, repeat-y, or no-repeat */
+    background-repeat: repeat-x;
+
+    /* placement of bg image within element */
+    /* value consists of two	tokens, can be top, left, right, bottom, center, a percentage, or a length value in px, pt, etc */
+    background-position: 370px 20px;
+
+
+    background-color: silver;
+    
+}
+
+ul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+ol {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+h1 {
+    align-content: center;
+}
+h2 {
+    font-weight: 300;
+
+}
+footer {
+
+    align-content: center;
+    
+}
