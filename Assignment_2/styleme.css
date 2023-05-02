@@ -5,35 +5,79 @@ div {
 
     /* How bg image should be repeated */
     /* can be repeat (default), repeat-x, repeat-y, or no-repeat */
-    background-repeat: repeat-x;
+    /* background-repeat: repeat-x; */
 
     /* placement of bg image within element */
     /* value consists of two	tokens, can be top, left, right, bottom, center, a percentage, or a length value in px, pt, etc */
-    background-position: 370px 20px;
+    /* background-position: 370px 20px; */
 
 
-    background-color: silver;
+    /* background-color: silver; */
     
 }
 
-ul {
+* {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
 }
-ol {
 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-}
 h1 {
     align-content: center;
+    font-size: large;
 }
+
 h2 {
+    align-content: space-around;
     font-weight: 300;
+    font-size: medium;
 
 }
-footer {
+ul{
+    font-weight: 100;
+    font-size: small;
+    font-style: italic;
+    font-family: Arial;
+}
+ol{
+    font-weight: 100;
+    font-size: small;
+    font-style:oblique;
+    font-family:'Times New Roman', Times, serif;
+    list-style: lower-roman;
+}
+.page-header {
 
-    align-content: center;
-    
+    background-color:skyblue;
+    border-radius: 20px;
+}
+
+.header-bg {
+    width: 100%;
+    height: 250px;
+    /* border-color: black;
+    border-width: 1px;
+    border-style: solid; */
+    background-image: url(image2.jpeg);
+    border-radius: 20px;
+}
+
+.my-personal-photo {
+    position: relative;
+    left: 0px;
+    top: -150px;
+    border: solid 1px black;
+    border-radius: 20px;
+}
+
+.main-content{
+
+    background-color: skyblue;
+    border: solid 1px black;
+    border-radius: 20px;
+}
+
+.page-footer {
+    background-color: dimgrey;
+    border: solid 1px black;
+    border-radius: 20px;
+
 }
