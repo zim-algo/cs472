@@ -1,0 +1,120 @@
+.page-container{
+
+
+}
+
+.page-nav-header{
+    
+    display: block;
+    color: gray;
+font-size: 10px;
+color: black;
+padding-top: 10px;
+
+}
+.header-left{
+    
+    display: inline-block;
+    /* border: solid 1px red; */
+
+    vertical-align: top;
+    width: 49%;
+    margin: auto;
+}
+.header-left img{
+    vertical-align: middle;
+}
+
+.header-left span {
+    /* font-size: 12px; */
+    display: inline-block;
+    /* border: solid 1px red; */
+    vertical-align: top;
+    width: 49%;
+    text-align: left;
+    margin: auto;
+    position: absolute;
+}
+
+.page-nav-header {
+    display: inline-block;
+    /* border: solid 1px red; */
+    vertical-align: top;
+    width: 49%;
+    text-align: right;
+    margin: auto;
+    margin-top: 7px;
+}
+
+.university-logo{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+
+}
+
+.header-bg{
+    background-color: #069;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 27px;
+}
+
+.page-header-script{
+    text-align: center;
+    
+}
+
+.main-content{
+    text-align: center;
+    
+}
+
+.main-content-left{
+    /* border: solid 1px red; */
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: #666;
+    font-weight: normal;
+    text-decoration: none;
+    
+}
+.input-btns{
+
+    padding: 10px;
+
+}
+.main-content-right{
+    /* border: solid 1px red; */
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    text-align: justify;
+}
+.Azure-button{
+
+    display: block;
+    background-color:white;
+    text-align: center;
+    align-content: center;
+    height: 50px;
+    border: solid 1px #dedede;
+    padding: -5px 0;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    width:280px;
+    
+}
+.btn-submit-login{
+background-color: black;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 5px;
+
+}
