@@ -1,15 +1,10 @@
-.page-container{
-
-
-}
-
 .page-nav-header{
     
     display: block;
     color: gray;
 font-size: 10px;
 color: black;
-padding-top: 10px;
+padding-top: 10
 
 }
 .header-left{
@@ -43,7 +38,9 @@ padding-top: 10px;
     width: 49%;
     text-align: right;
     margin: auto;
-    margin-top: 7px;
+    margin-top: 9px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .university-logo{
