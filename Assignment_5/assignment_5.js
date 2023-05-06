@@ -112,5 +112,44 @@ function printOddNumbersOnly(arr) {
   }
 
   // Number 10
+
+  function computeSumOfSquaresOfEvensOnly(arr) {
+    
+    let evenNumbers = arr.filter(num => num % 2 === 0); // filter out the even numbers
+    
+    let squaredEvens = evenNumbers.map(num => num ** 2); // square each even number
+  
+    let sumOfSquares = squaredEvens.reduce((sum, currentValue) => sum + currentValue, 0); // compute the sum of the squares
+  
+    return sumOfSquares;
+  }
+
+  // Number 11
+
+function sum(arr) {
+    return arr.reduce((accumulator, currentValue) => accumulator + currentValue, 0); // sum using Array.reduce()
+  }
+
+  function multiply(arr) {
+    return arr.reduce((accumulator, currentValue) => accumulator * currentValue, 1); // multiply using Array.reduce(). Initial value is however 1.
+  }
+  // Number 12
+  function printFibo(n, a, b) {
+    // Print the first two numbers
+    let fibo = [a, b];
+    let fiboString = a + ", " + b;
+  
+    // Compute and print the rest of the sequence
+    for (let i = 2; i < n; i++) {
+      let next = fibo[i-1] + fibo[i-2];
+      fibo.push(next);
+      fiboString += ", " + next;
+    }
+    
+    console.log(fiboString);
+  }
+   
+  
+  
   
   
