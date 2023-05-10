@@ -47,7 +47,9 @@ padding-top: 10
     display: inline-block;
     vertical-align: top;
     text-align: left;
-
+    width: 50px;
+    height: 50px;
+    
 }
 
 .header-bg{
@@ -64,7 +66,10 @@ padding-top: 10
 }
 
 .main-content{
+    display: flex;
     text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
     
 }
 
@@ -87,11 +92,18 @@ padding-top: 10
 }
 .main-content-right{
     /* border: solid 1px red; */
-    display: inline-block;
+
     width: 45%;
     vertical-align: top;
-    text-align: justify;
 }
+
+#main-content-right-text {
+
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
 .Azure-button{
 
     display: block;
@@ -108,6 +120,16 @@ padding-top: 10
     width:280px;
     
 }
+.Azure {
+
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+
+}
+
 .btn-submit-login{
 background-color: black;
 color: white;
@@ -116,6 +138,13 @@ border-radius: 5px;
 padding: 5px 10px;
 width: 280px;
 border: 1px solid grey;
+
+}
+.btn-submit-login.small{
+
+    width : 120px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -132,7 +161,7 @@ border: 1px solid grey;
     font-size: 14px;
 }
 .form-input {
-    width: 280px;
+    width: 260px;
     padding: 5px 10px;
     border-radius: 5px;
     border: 1px solid grey;
@@ -147,4 +176,13 @@ border: 1px solid grey;
 .flex-group {
     display: flex;
     justify-content: space-between;
+    color: #069;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+#Remember{
+
+    margin-right: 50px;
+    
 }
